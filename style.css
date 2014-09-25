@@ -1,0 +1,154 @@
+
+body
+{
+  margin:0px;
+  border:0;
+  padding:0;
+  background:#eeeeee;
+  font-family:Arial, Anadle Mono, sans-serif; 
+  font-size:76%;
+  overflow:auto;
+}
+
+a
+{
+  text-decoration:none;
+}
+
+a:hover
+{
+  text-decoration:underline;
+}
+
+a:active
+{
+  color:#000000;
+}
+
+a:visited
+{
+  color:#000000;
+}
+
+img
+{
+  border:none;
+}
+
+h1
+{
+  font-size:26px;
+  font-weight:bold;
+}
+
+h3
+{
+  font-size:14px;
+  font-weight:bold;
+}
+
+h5
+{
+  font-size:10px;
+}
+
+hr
+{
+  border:0;
+  border-top: 2px solid #333333;
+  height:0;
+  background: #333333;
+}
+
+.encompass
+{
+  position:relative;
+  top:20px;
+}
+
+.headerlnk
+{
+  position:absolute;
+  top:15px;
+  left:125px;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.headerimg
+{
+  position:absolute;
+  top:0px;
+  left:500px;
+}
+
+.headerln
+{
+  position:absolute;
+  top:40px;
+  left:97px;
+  width:700px;
+}
+
+.sysdeveloper
+{
+  position:absolute;
+  top:80px;
+  left:297px;
+  border-bottom: 2px solid #303030;
+}
+
+.maintext
+{
+  position:absolute;
+  top:180px;
+  left:265px;
+  width:400px;
+  font-size:12px;
+  text-align:justify;
+}
+
+.emailimg
+{
+  position:absolute;
+  top:210px;
+  left:170px;
+}
+
+.footerimg
+{
+  position:absolute;
+  top:340px;
+  left:240px;
+}
+
+.linuximg
+{
+	position:relative;
+	top:-10px;
+}
+
+.porttable
+{
+	font-size:100%;
+	width:500px;
+}
+
+#dlmenu {height:10em;}
+#menu {list-style-type:none; margin:0 0 10px; padding:0; position:absolute; width:15em; background:#fff; z-index:100;}
+#menu li {display:block; padding:0; margin:0; position:relative; z-index:100;}
+#menu li a, #menu li a:visited {display:block; text-decoration:none;}
+#menu li dd {display:none;}
+#menu li:hover, #menu li a:hover {border:0;}
+#menu li:hover dt a , #menu li a:hover dt a {background:#d4d8bd url(top_grad_2.gif) center center; color:#ff0; }
+#menu li:hover dd, #menu li a:hover dd {display:block;}
+#menu li:hover dl, #menu li a:hover dl {height:20em; background:#b4be9c url(sub_grad.gif);}
+#menu table {border-collapse:collapse; padding:0; margin:-4px; font-size:1em;}
+#menu dl {width: 15em; margin: 0; background: #6f9c6f; cursor:pointer;}
+#menu dt {margin:0; padding: 0; font-size: 1.1em; border-top:1px solid #cce;}
+#menu dd {margin:0; padding:0; font-size: 1em; text-align:left; }
+.gallery dt a, .gallery dt a:visited {display:block; color:#fff; padding:5px 5px 5px 10px; background:#949e7c url(top_grad.gif) center center;}
+.gallery dd a, .gallery dd a:visited {color:#000; min-height:1em; text-decoration:none; display:block; padding:4px 5px 4px 20px; background:#b4be9c url(sub_grad.gif);}
+* html .gallery dd a, * html .gallery dd a:visited {height:1em;}
+.gallery dd a:hover {background:#7aa; color:#ff0;}
+
