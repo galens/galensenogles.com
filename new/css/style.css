@@ -46,7 +46,7 @@ nav ul li:hover a {
 
 nav ul li a {
 	display: block;
-  padding: 25px 40px;
+  padding: 5px 10px;
 	color: #757575;
   text-decoration: none;
 }
@@ -82,3 +82,35 @@ nav ul ul ul {
 }
 
 /* menu end */
+
+section h3 {
+  text-align:center;
+  margin:0px;
+}
+
+.right {
+  float:right;
+}
+
+.window {
+  position:absolute;
+  height:100px;
+  width:300px;
+  border:2px solid;
+}
+
+#window_about_this {
+  z-index:10;
+}
+
+#window_system_folder {
+  top:200px;
+  left:100px;
+  z-index:10;
+}
+
+#wrapper {
+  border:2px solid;
+  height:100%;
+  width:100%;
+}

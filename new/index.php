@@ -7,6 +7,10 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <script src="js/jquery-1.11.1/jquery-1.11.1.js"></script>
+    <script src="js/jquery-1.11.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -67,7 +71,7 @@
             </ul>
           </li>
         </ul>
-        <ul>
+        <ul class="right">
           <li class="clock"><time><a href="#">4:20 PM</a></time></li>
           <li class="about"><a href="#">?</a>
             <ul>
@@ -84,12 +88,14 @@
     </header>
 
     <main>
-      <section aria-labelledby="about_this">
-        <h2 id="about_this">About this website</h2>
+      <div id="wrapper">
+      <section id="window_about_this" class="window ui-widget-content" aria-labelledby="about_this">
+        <h3 id="header_about_this">About this website</h3>
       </section>
-      <section aria-labelledby="about_this">
-        <h2 id="about_this">About this website</h2>
+      <section id="window_system_folder" class="window ui-widget-content" aria-labelledby="system_folder">
+        <h3 id="header_system_folder">System Folder</h3>
       </section>
+      </div>
     </main>
   </body>
 </html>
